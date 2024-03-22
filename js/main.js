@@ -111,6 +111,11 @@
         portfolioIsotope.isotope({filter: $(this).data('filter')});
     });
 
+	// Lightbox Settings
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+    })	
 
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
